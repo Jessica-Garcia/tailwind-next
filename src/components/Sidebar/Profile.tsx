@@ -2,7 +2,7 @@ import { LogOut } from 'lucide-react'
 
 export function Profile() {
   return (
-    <div className="grid-cols-profile grid items-center gap-3">
+    <div className="grid grid-cols-profile items-center gap-3">
       <img
         src="https://github.com/Jessica-Garcia.png"
         className="h-10 w-10 rounded-full"
@@ -10,7 +10,10 @@ export function Profile() {
       />
       <div className="flex flex-col truncate">
         <span className="text-sm font-semibold text-zinc-700">Jéssica</span>
-        <span className="truncate text-sm text-zinc-500">
+        <span
+          className="truncate text-sm text-zinc-500"
+          title="jessicablablajajahahahahahhhhhhahah@mail.com"
+        >
           jessicablablajajahahahahahhhhhhahah@mail.com
         </span>
       </div>
